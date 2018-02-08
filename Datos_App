@@ -9,6 +9,7 @@ Una relación muy breve de estos datos sería la siguinete.
                                                 |Precio
                                                 |Ubicación
                                                 |Transmisión
+                                                |Caja
                                                 |URL
                                                
                                                
@@ -25,4 +26,5 @@ la siguiente:
     *Precio --> money
     *Ubicación --> varchar
     *Transmisión --> char
+    *Caja --> char
     *URL --> text
