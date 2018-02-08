@@ -1,0 +1,26 @@
+La aplicación hará uso de datos especificos para realizar la indexación en la base de datos.
+
+Una relación muy breve de estos datos sería la siguinete.
+
+(Carros)------>(Marca)------>(Referencia)------>|Cilindraje
+                                                |Combustible
+                                                |Kilometraje
+                                                |Año
+                                                |Precio
+                                                |Ubicación
+                                                |Transmisión
+                                               
+                                               
+Estos datos deben estar definidos con un tipo de datos especifico al almacenarlos en la base de datos. El tipo de dato debe ser elegido 
+logicamente, para así facilitar las operaciones que la BD hará. En este orden de ideas, el tipo de datos definido para cada variable es
+la siguiente:
+
+*Marca --> varchar
+  *Referencia --> varchar
+    *Cilindraje --> smallint
+    *Combustible --> char
+    *Kilometraje --> bigint
+    *Año --> datetime
+    *Precio --> money
+    *Ubicación --> varchar
+    *Transmisión --> char
