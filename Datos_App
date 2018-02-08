@@ -9,6 +9,7 @@ Una relación muy breve de estos datos sería la siguinete.
                                                 |Precio
                                                 |Ubicación
                                                 |Transmisión
+                                                |URL
                                                
                                                
 Estos datos deben estar definidos con un tipo de datos especifico al almacenarlos en la base de datos. El tipo de dato debe ser elegido 
@@ -24,3 +25,4 @@ la siguiente:
     *Precio --> money
     *Ubicación --> varchar
     *Transmisión --> char
+    *URL --> text
