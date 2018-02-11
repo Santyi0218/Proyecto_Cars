@@ -1,12 +1,17 @@
-Geekar será una pagina WEB en donde la unica tematica son los vehiculos (carros por el momento), la pagina tendrá como objetivo principal
+Octano será una pagina WEB en donde la unica tematica son los vehiculos (carros por el momento), la pagina tendrá como objetivo principal
 fomentar el amor por los vehiculos.
 Esta WEB tendra varias secciones, donde cada sección va a tener unas funcionalidades especificas. Las secciones son:
 
 *Inicio
+*Noticias
 *Catalogo
 *Tips
 
 Descripción de cada sección:
+
+|Noticias|
+La sección noticias estará dotada de información relevante para el entusiasta del motor, será algo similar a un estilo de revista virtual
+donde se encontrará aparte de noticias, tambien reseñas de vehiculos y todo tipo de información util y relevante.
 
 |Inicio|
 La sección de inicio será el home de la pagina, está contará con las noticias más relevantes del momento; movimientos del mercado
@@ -14,7 +19,7 @@ automotriz, novedades, vehiculo estrella del mes y tips destacados de la semana.
 En lo posible, la sección de inicio será modificada cada día para aportar a los clientes información actualizada.
 
 |Catalogo|
-Está sección, será el principal servicio que prestará Geekar, el catalogo servira para avaluar y comparar precios de un mismo vehiculo en
+Está sección, será el principal servicio que prestará Octano, el catalogo servira para avaluar y comparar precios de un mismo vehiculo en
 diferentes paginas WEB, dandole un abanico de opciones de sitios de compra al cliente.
 
 |Tips|
