@@ -1,0 +1,31 @@
+CREATE TABLE Carros (
+    Marca varchar(30)
+    PRIMARY KEY(Marca)
+    
+    FOREIGN KEY (Marca) REFERENCES Referencias(Referencia)
+    
+    );
+    
+CREATE TABLA Referencias (
+    Referencia varchar(30) 
+    PRIMARY KEY(Referencia)
+    
+    FOREIGN KEY (Referencia) REFERENCES Especs(URL)
+    
+    );
+    
+CREATE TABLA Especs (
+    Cilindraje smallint NOT NULL
+    Transmision varchar(6) NOT NULL
+    Modelo smallint NOT NULL
+    Kilometraje int NOT NULL
+    Ubicacion varchar(20) NOT NULL
+    URL varchar(255)
+    Precio money NOT NULL
+    Combustible varchar (15) NOT NULL
+    Caja varchar (15) NOT NULL
+    
+    UNIQUE(URL)
+    
+    );
+
