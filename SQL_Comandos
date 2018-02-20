@@ -3,15 +3,17 @@ USE OCTANO
 
 CREATE TABLE Carros (
     Marca varchar(30)
-    PRIMARY KEY(Marca)
+    ID_Mar int
+    PRIMARY KEY(ID_Mar)
     
-    FOREIGN KEY (Marca) REFERENCES Referencias(Referencia)
+    FOREIGN KEY (Marca) REFERENCES Referencias(ID_Refer)
     
     );
     
 CREATE TABLA Referencias (
-    Referencia varchar(30) 
-    PRIMARY KEY(Referencia)
+    Referencia varchar(30)
+    ID_Refer int
+    PRIMARY KEY(ID_Refer)
     
     FOREIGN KEY (Referencia) REFERENCES Especs(URL)
     
