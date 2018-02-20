@@ -1,0 +1,28 @@
+
+
+ ________             ___________             ________________
+| Carros |           |Referencias|           |Especificaciones|
+|--------|           |-----------|           |----------------|
+| ID_Mar |           |Referencia |---------->|       URL      |
+|  Marca |---------->|ID_Refer   |           |                |
+|________|           |___________|           |      Precio    |            
+                                             |     Ubicación  |
+                                             |    Cilindraje  |
+                                             |   Combustible  |
+                                             |   Transmisión  |
+                                             |       Caja     |
+                                             |      Modelo    |
+                                             |   Kilometraje  |
+                                             |________________|
+       ________________                                             
+      |ID_Mar es PK    |
+      |ID_Refer es PK  |
+      |URL es PK       |
+      |________________|
+      
+       ________________                                             
+      |Marca es FK     |
+      |Referencia es FK|
+      |________________|
+      
+
